@@ -1,0 +1,1 @@
+$(document).ready(function(){setTimeout(function(){$("#preloder").fadeOut(),$(".loader").fadeOut()},2e3),1<$("#msg_recieved-block div").length?$("#st_pt").css("display","none"):($("#st_pt").css("display","block"),$("#msg_recieved-block").css("overflow","hidden"),$("#msg_recieved-block").css("height","36px"))});

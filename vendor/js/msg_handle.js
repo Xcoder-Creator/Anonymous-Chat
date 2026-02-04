@@ -1,0 +1,1 @@
+$(document).ready(function(){setTimeout(function(){$("#preloder").fadeOut(),$(".loader").fadeOut()},2e3),$("#send_msg").click(function(){var t=$("#msg_txt").val(),e=$("#msg_id").text();$.post("send_msg/zQaxqq23_12qa.php",{msg:t,id:e},function(t){$(".main").after(t)})})});

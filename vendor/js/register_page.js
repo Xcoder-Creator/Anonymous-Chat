@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".toggle-password").click(function(){$(this).toggleClass("zmdi-eye zmdi-eye-off");var t=$($("#userpassword").attr("toggle"));"password"==t.attr("type")?t.attr("type","text"):t.attr("type","password")})});
